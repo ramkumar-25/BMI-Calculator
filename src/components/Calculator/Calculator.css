@@ -1,0 +1,133 @@
+.calculator{
+    height:60vh;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    margin:70px auto;
+    width:800px;
+}
+
+.bmi-content img{
+    width:300px;
+    margin-top:80px;
+}
+
+.bmi-cal-box h1{
+     font-size: 50px;
+     margin-top:30px;
+}
+
+.input-conatainer{
+    display: flex;
+    flex-direction: column;
+}
+.input-conatainer label{
+    margin-bottom: 10px;
+}
+
+.input-conatainer input{
+    outline: none;
+    padding: 5px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    margin:15px 0;  
+}
+
+.buttons button{
+    font-size: 18px;
+    padding: 10px
+}
+
+
+.result{
+    display:flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 15px;
+    
+}
+
+.result p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.error{
+    font-size:14px;
+    color: red;
+    margin-bottom:10px;
+}
+
+.btn-cal{
+    background-color: rgb(113, 113, 237);
+    color: white;
+    border: none;
+}
+
+.clear{
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+@media(max-width:850px){
+    .calculator {
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-color: white;
+        margin: 50px auto;
+        width: 600px;
+    }
+
+    .bmi-content img {
+        width: 200px;
+        margin-top: 10px;
+
+    }
+    .bmi-content{
+       text-align:center;
+    }
+    .bmi-cal-box h1 {
+        font-size: 40px;
+        text-align: center;
+       
+    }
+
+    .input-conatainer label {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:600px){
+    .calculator {
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-color: white;
+        margin: 50px auto;
+        width: 500px;
+    }
+}
+
+@media(max-width:520px){
+    .calculator {
+        width: 400px;
+    }
+}
+
+@media(max-width:420px){
+    .calculator {
+        width: 300px;
+    }
+}
