@@ -21,6 +21,8 @@
     }
 }
 
+
+
 @media(max-width:520px){
     .bmi-img img{
         width:300px
@@ -34,5 +36,12 @@
         font-size: 25px;
         margin: 10px 0px;
 
+    }
+}
+
+
+@media(max-width:350px){
+    .bmi-img img{
+        width:240px
     }
 }
